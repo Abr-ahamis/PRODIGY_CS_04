@@ -82,7 +82,7 @@ chmod +x setup_requirements.sh
 ```
 Run the script:
 ```bash
-./setup_requirementsv.sh
+./setup_requirements.sh
 ```
 ---
 ### Setup (Manual)
