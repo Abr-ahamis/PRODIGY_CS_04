@@ -1,35 +1,33 @@
 # PRODIGY_CS_04
-Simple Python Keylogger
+## Simple Python Keylogger
 ------------------------
-This keylogger records every keystroke (including special keys) and logs them with timestamps
-to a file named 'keylog.txt'. It uses the pynput library to capture keyboard events.
+### This keylogger records every keystroke (including special keys) and logs them with timestamps to a file named 'keylog.txt'. It uses the pynput library to capture keyboard events.
 
-Simple Windows Keylogger in C
-    -----------------------------------
-    This program installs a low-level keyboard hook using SetWindowsHookEx.
-    Every keystroke is recorded to "keylog.txt" with a basic textual representation.
+## Simple Windows Keylogger in C
+#### This program installs a low-level keyboard hook using SetWindowsHookEx.
+#### Every keystroke is recorded to "keylog.txt" with a basic textual representation.
     
 
-Overview
+### Overview
 This repository contains two simple keylogger implementations:
 
-C Keylogger for Windows:
+## C Keylogger for Windows:
 Uses the Windows API (via windows.h and SetWindowsHookEx) to capture keystrokes and log them to a file.
 
-Python Keylogger:
+### Python Keylogger:
 Uses the pynput library to capture keystrokes and logs them (with timestamps) to a file.
 
 Both examples are minimal and meant to help you understand how keylogging works. They can be extended or modified for authorized security testing and educational demonstrations.
 
-Contents
+### Contents
 keylogger.c — C implementation for Windows.
 
 keylogger.py — Python implementation using pynput.
 
 README.md — This file.
 
-Prerequisites
-C Keylogger
+### Prerequisites
+## C Keylogger
 Operating System: Windows
 
 Compiler: A Windows-based C compiler such as Microsoft Visual Studio or MinGW.
@@ -38,7 +36,7 @@ SDK: Windows SDK must be installed (for windows.h and related libraries).
 
 Privileges: Administrator rights may be required to install a global hook.
 
-Python Keylogger
+## Python Keylogger
 Python: Python 3.x
 
 Library: pynput
@@ -47,7 +45,7 @@ Install it using:
 ```bash
 pip install pynput
 ```
-How to Use
+## How to Use
 C Keylogger
 Compilation:
 
@@ -68,7 +66,7 @@ The program will run in the background and log all keystrokes to a file named ke
 
 To stop the keylogger, you may need to terminate the process via Task Manager or add your own logic to exit.
 
-Python Keylogger
+## Python Keylogger
 Installation:
 
 Ensure Python 3.x is installed.
@@ -90,17 +88,17 @@ The keylogger will capture keystrokes and append them (with timestamps) to keylo
 
 Stopping the keylogger: Press the ESC key to exit the program.
 
-Ethical and Legal Considerations
+## Ethical and Legal Considerations
 Use Responsibly:
 Only run this tool on systems for which you have explicit permission.
 
-Educational Purposes Only:
+## Educational Purposes Only:
 This code is intended for learning and authorized testing. Misuse may result in legal consequences.
 
-Privacy:
+## Privacy:
 Unauthorized keylogging is a violation of privacy laws. Always respect the privacy and data protection rights of others.
 
-Additional Notes
+## Additional Notes
 Background Execution:
 
 For the C keylogger, consider compiling as a Windows GUI application (using the .pyw technique or similar) to hide the console window.
@@ -112,7 +110,7 @@ pythonw keylogger.py
 
 to suppress the console window.
 
-Customization:
+## Customization:
 Both implementations are basic. You can add features such as:
 
 Timestamp formatting or more detailed logging.
@@ -121,9 +119,9 @@ Periodic emailing of logs using modules like smtplib in Python.
 
 Additional key filtering or formatting.
 
-Contributions:
+## Contributions:
 Feel free to contribute improvements or additional features via pull requests or by opening an issue.
 
-Legal Notice
+## Legal Notice
 This software is provided "as-is" without any warranty. The authors assume no responsibility for any misuse or damage caused by the use of this code. Always adhere to ethical guidelines and legal requirements when using or modifying this tool.
 
