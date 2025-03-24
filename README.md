@@ -73,7 +73,16 @@ Run the provided setup script to create a virtual environment and install depend
 ```bash
 python3 setup_requirements.py
 ```
+or 
+Give execute permissions to the script:
+```bash
+chmod +x setup_venv.sh
+```
+Run the script:
+```bash
+./setup_venv.sh
 
+```
 ### Setup (Manual)
 If you prefer to set up manually, install `pynput`:
 ```bash
