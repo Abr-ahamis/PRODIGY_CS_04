@@ -43,7 +43,7 @@ SDK: Windows SDK must be installed (for windows.h and related libraries).
 
 Privileges: Administrator rights may be required to install a global hook.
 
-## Python Keylogger
+## How to use it in Python
 Python: Python 3.x
 
 #### this will Create a virtual environment called env in the current directory.
@@ -60,7 +60,7 @@ or for manual
 ```bash
 pip install pynput
 ```
-## How to Use
+## How to Use it in C
 C Keylogger
 Compilation:
 
