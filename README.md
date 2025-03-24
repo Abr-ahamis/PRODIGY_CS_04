@@ -55,6 +55,14 @@ Open a Command Prompt, navigate to the folder containing keylogger.c, and run:
 ```bash
 gcc keylogger.c -o keylogger.exe -luser32 -lkernel32
 ```
+### or 
+
+```bash
+sudo apt-get install mingw-w64
+```
+```bash
+x86_64-w64-mingw32-gcc keylogger.c -o keylogger.exe -luser32 -lkernel32
+```
 Using Visual Studio:
 Create a new Win32 Console Application project, add keylogger.c to your project, and build the solution.
 
