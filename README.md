@@ -26,7 +26,14 @@ keylogger.py — Python implementation using pynput.
 
 README.md — This file.
 
-### Prerequisites
+### Intallation
+```bash
+git colne https://github.com/Abr-ahamis/PRODIGY_CS_04.git
+```
+```bash
+cd PRODIGY_CS_04
+```
+
 ## C Keylogger
 Operating System: Windows
 
@@ -39,9 +46,17 @@ Privileges: Administrator rights may be required to install a global hook.
 ## Python Keylogger
 Python: Python 3.x
 
-Library: pynput
-Install it using:
+#### this will Create a virtual environment called env in the current directory.
 
+Activate the virtual environment.
+
+Upgrade pip to the latest version.
+
+Install the required libraries (pip install pynput).
+```bash
+python3 setup_requirements.py
+```
+or for manual
 ```bash
 pip install pynput
 ```
