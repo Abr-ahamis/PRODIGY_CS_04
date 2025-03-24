@@ -74,6 +74,7 @@ Run the provided setup script to create a virtual environment and install depend
 python3 setup_requirements.py
 ```
 or 
+
 Give execute permissions to the script:
 ```bash
 chmod +x setup_venv.sh
