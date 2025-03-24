@@ -72,22 +72,19 @@ To stop the keylogger, terminate the process via Task Manager or modify the code
 Run the provided setup script to create a virtual environment and install dependencies:
 ```bash
 python3 setup_requirements.py
-```
----
+
 ## or 
----
-Give execute permissions to the script:
-```bash
+
 chmod +x setup_requirements.sh
-```
-Run the script:
-```bash
+
 ./setup_requirements.sh
 ```
 ---
 ### Setup (Manual)
 If you prefer to set up manually, install `pynput`:
 ```bash
+python3 -m venv env
+source env/bin/activate
 pip install pynput
 ```
 
