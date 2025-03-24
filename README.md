@@ -78,11 +78,11 @@ python3 setup_requirements.py
 ---
 Give execute permissions to the script:
 ```bash
-chmod +x setup_venv.sh
+chmod +x setup_requirements.sh
 ```
 Run the script:
 ```bash
-./setup_venv.sh
+./setup_requirementsv.sh
 ```
 ---
 ### Setup (Manual)
