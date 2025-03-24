@@ -28,7 +28,7 @@ README.md — This file.
 
 ### Intallation
 ```bash
-git colne https://github.com/Abr-ahamis/PRODIGY_CS_04.git
+git clone https://github.com/Abr-ahamis/PRODIGY_CS_04.git
 ```
 ```bash
 cd PRODIGY_CS_04
